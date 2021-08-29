@@ -1,0 +1,72 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{titling}
+
+\begin{document}
+
+\setlength{\droptitle}{-7em}
+
+\title{Project Title}
+\author{ Author 1 first and last name\thanks{Here, write what year of your graduate studies you are and in which program you are enrolled in, e.g. CSE Master's 2nd year} \and Author 2 first and last name\thanks{Here, write what year of your graduate studies you are and in which program you are enrolled in, e.g. CSE Master's 2nd year}}% <-this % stops a space
+%
+
+
+
+
+\date{}
+\maketitle
+\vspace*{-1cm}
+\begin{abstract}%
+Write one short paragraph what problem you addressed and what is the summary of your  results. Write the summary in maximum 3 clear messages. 
+\end{abstract}
+
+
+
+\section{Introduction}\label{sec:intro}
+
+Overall document format
+\begin{itemize}
+  \item Limit the main text to 3 or 5 pages using this style guide
+  \item If you don't use this template, then ensure you use a font and style as close as possible to this template. 
+  \item Audience: your writeup should be completely understandable to any of your colleagues in the course.  So, you should provide sufficient detail and clarity so that they can follow the problem, protocols/constructions, the results. 
+  \end{itemize}
+
+In the Introduction, motivate the problem and provide a background on your research question based on the past work. What problem you addressed and why? Discuss only the past work relevant to your work. In your discussions, you should guide the reader to the problem you want to address. 
+
+Common mistakes: 
+\begin{itemize}
+\item Listing a number of different articles and summarizing their work without specifically directing the literature review to what you want to address. 
+\item Poor English - check your grammar and spelling carefully and several times. 
+\end{itemize}
+
+\section{Problem Setup and Threat Model}
+\begin{itemize}
+ \item Problem Setup: A crisp and clear problem statement. Your problem statement should be captured as clearly as possible using mathematics. 
+ \item Threat Model: Security assumption/model. Which information do you want to protect...
+\end{itemize}
+ 
+
+
+\section{Literature Review/Theory/Construction/Analysis}
+
+
+\section{Implementation Results (if any)}
+\begin{itemize}
+\item What dataset you chose for the implementation and why? 
+\item What are the results?
+\end{itemize}
+
+
+
+\section{Conclusions}
+\begin{itemize}
+\item What are the conclusions regarding the problem you had chosen in Section \ref{sec:intro}? 
+\item What questions remain open? 
+\end{itemize}
+
+
+
+\bibliographystyle{abbrv}
+\bibliography{myproject_bib}
+\end{document}
