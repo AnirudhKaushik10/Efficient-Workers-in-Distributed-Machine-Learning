@@ -1,5 +1,14 @@
 ## Implementation of sparsification and quantization techniques in distributed machine learning models
 
+## How To Run
+
+python distributed_nn.py --network ResNet --dataset Cifar10
+
+options:
+       network: Resnet/LeNet
+       dataset: MNIST/Cifar10
+
+
 ## Algorithmic Details
 
 ### Quantized Stochasitc Gradient compression
