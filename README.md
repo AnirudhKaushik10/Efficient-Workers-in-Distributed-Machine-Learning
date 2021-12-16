@@ -1,5 +1,4 @@
-## Implementation of sparsification and quantization techniques in distributed machine learning models (LeNet
-and VGG-11 architectures)
+## Implementation of sparsification and quantization techniques in distributed machine learning models
 
 ## Algorithmic Details
 
