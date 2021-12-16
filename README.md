@@ -6,7 +6,7 @@ python distributed_nn.py --network ResNet --dataset Cifar10
 
 Options:
 
-    --network: Resnet/LeNet
+    --network: VGG11/Resnet50/LeNet
     --dataset: MNIST/Cifar10
 
 ## Algorithmic Details
